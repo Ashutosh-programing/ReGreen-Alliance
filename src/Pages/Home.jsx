@@ -54,7 +54,7 @@ const homeArr2 = [
 const Home = () => {
   return (
     <div>
-      <div className="home-wrapper font-Nunito">
+      <div className="home-wrapper font-Nunito text-xl">
         <div className="bg-img w-full h-96 ">
         <img src='./img7.jpg' className='h-96 w-full object-center box-border object-cover -z-10' alt="" />
         </div>

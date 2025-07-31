@@ -55,7 +55,7 @@ const OutWork = () => {
         </div>
         <div className="work-container py-10">
             <div className="first-container w-5/6 flex flex-col gap-4 mx-auto">
-            <div className="content flex flex-col gap-5 items-center mx-auto">
+            <div className="content flex flex-col gap-5 items-center mx-auto py-6 text-xl">
             <p>ReGreen Alliance works with the centre and state governments as well as municipal bodies to assist their implementation efforts in fighting pollution. We run pilot programmes, which if successful, are scaled rapidly across geographies.
             </p>
             <p>Our flagship programme is the Dispersed Sources of Pollution programme (DSP) which is currently running in 10 cities across 4 states. The programme focuses on addressing dispersed sources of air pollution like dust and garbage which contribute significantly to air pollution.</p>
