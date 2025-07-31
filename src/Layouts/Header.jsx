@@ -6,6 +6,7 @@ import { IoMdHome } from "react-icons/io";
 import { FaHandBackFist } from "react-icons/fa6";
 import { FaPeopleCarry } from "react-icons/fa";
 import { FaPhoneFlip } from "react-icons/fa6";
+import { TiWeatherDownpour } from "react-icons/ti";
 
 
 const Header = () => {
@@ -50,6 +51,12 @@ const Header = () => {
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-green-500 transition-all duration-500 group-hover:w-full"></span>
                 Contact us
               </NavLink>
+                              <NavLink
+                className={({isActive})=>isActive?'group relative text-green-500 flex items-center justify-between gap-1':'group relative flex items-center justify-between gap-1'}
+                to="https://weatherly-get-daily-updates.netlify.app/"
+              >
+                Weather
+              </NavLink>
 
             </ul>
           </div>
@@ -84,6 +91,13 @@ const Header = () => {
               >
                 <FaPhoneFlip size={20}/>
                 Contact
+              </NavLink>
+                <NavLink
+                className={({isActive})=>isActive?'group relative text-green-500 flex items-center justify-between gap-2':'group relative flex items-center justify-between gap-2'}
+                to="https://weatherly-get-daily-updates.netlify.app/"
+              >
+                <TiWeatherDownpour size={20}/>
+                Weather
               </NavLink>
 
             </ul>
