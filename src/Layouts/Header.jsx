@@ -57,7 +57,7 @@ const Header = () => {
 
           <div className={`second-conditionl md:hidden  block hover:text-slate-900`}>
             <p onClick={opening} className=""><TiThMenu size={30}/></p>
-            { <div onClick={opening} className={`conditional-window flex flex-col absolute right-0 top-0 h-full ${open ? 'w-2/3 z-30 opacity-100':'w-0 -z-10 opacity-0'} text-xl backdrop-blur-md bg-slate-200 items-end p-4 rounded-l-lg duration-300`}>
+            { <div onClick={opening} className={`conditional-window flex flex-col absolute right-0 top-0 h-full ${open ? 'w-2/3 z-30 opacity-100':'w-0 -z-10 opacity-0'} text-xl backdrop-blur-md bg-slate-100 shadow-xl items-end p-4 rounded-l-lg duration-300`}>
                   <ul className={`${open?'flex justify-between flex-col w-full gap-5 cursor-pointer sm:text-2xl text-xl px-5':' hidden'} `}>
             <p className="w-full flex justify-between text-red-500 items-end"><IoCloseSharp onClick={opening} className="text-red-500" size={20}/>Close</p>
               <NavLink className={({isActive})=>isActive?'group relative text-green-500 flex items-center justify-between gap-2':'group relative flex items-center justify-between gap-2'} to="/">
