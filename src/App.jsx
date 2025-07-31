@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import OurPartners from './Pages/OurPartners';
 import OutWork from './Pages/OutWork';
 import ContactUs from './Pages/ContactUs';
+import ComingSoon from './Pages/Cooming';
 
 function App() {
   const router = createBrowserRouter([{
@@ -27,6 +28,10 @@ function App() {
       {
         path:'ContactUs',
         element:<ContactUs/>
+      },
+      {
+            path:'comingSoon',
+            element:<ComingSoon/>
       }
     ]
   }])

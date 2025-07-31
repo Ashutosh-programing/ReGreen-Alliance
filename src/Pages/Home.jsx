@@ -83,7 +83,7 @@ const Home = () => {
             <div className="content-2 flex lg:flex-nowrap flex-wrap gap-4 justify-between">
             {homeArr2.map((e)=>{
                 return(
-                    <div className='p-5 flex flex-col items-center justify-center gap-6 lg:h-96 lg:w-96 rounded-xl shadow-md bg-custom-1' key={e.id}>
+                    <div className='p-5 flex flex-col items-center justify-center gap-6 lg:h-96 overflow-auto lg:w-96 rounded-xl shadow-md bg-custom-1' key={e.id}>
                         <p>{e.icon}</p>
                         <p className='text-2xl font-extrabold flex justify-center items-center'>{e.heading}</p>
                         <p>{e.text}</p>

@@ -8,7 +8,7 @@ const ContactUs = () => {
     error,
     formState: { isSubmitting },
   } = useForm();
-  onsubmit = (data) => {
+  const onsubmit = (data) => {
     console.log(data);
     alert('Thank You '+data.name+ ' For Your Feedback')
   };
