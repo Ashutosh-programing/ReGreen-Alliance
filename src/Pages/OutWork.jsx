@@ -52,6 +52,8 @@ const OutWork = () => {
       <div className="work-wrapper font-Nunito">
         <div className="bg-img h-96 w-full">
         <img className='h-96 w-full object-cover -z-10 ' src="./long-bg-2.jpg" alt="" />
+        <span className=' absolute top-10 flex h-96 w-full items-center font-Nunito justify-center text-white text-4xl font-extrabold underline underline-offset-8'>Our Work</span>
+
         </div>
         <div className="work-container py-10">
             <div className="first-container w-5/6 flex flex-col gap-4 mx-auto">

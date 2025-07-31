@@ -21,6 +21,8 @@ const ContactUs = () => {
             src="./long-bg-2.jpg"
             alt=""
           />
+        <span className=' absolute top-10 flex h-96 w-full items-center font-Nunito justify-center text-white text-4xl font-extrabold underline underline-offset-8'>Contact Us</span>
+
         </div>
         <div className="contact-container p-10 font-Nunito text-xl w-5/6 mx-auto flex flex-wrap md:flex-nowrap gap-4">
           <div className="first-content w-full md:w-1/2">

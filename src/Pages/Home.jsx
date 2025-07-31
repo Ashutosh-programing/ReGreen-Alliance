@@ -55,8 +55,9 @@ const Home = () => {
   return (
     <div>
       <div className="home-wrapper font-Nunito text-xl">
-        <div className="bg-img w-full h-96 ">
+        <div className="bg-img w-full h-96">
         <img src='./img7.jpg' className='h-96 w-full object-center box-border object-cover -z-10' alt="" />
+        <span className=' absolute top-10 flex h-96 w-full items-center font-Nunito justify-center text-white text-4xl font-extrabold underline underline-offset-8'>Home</span>
         </div>
         <div className="home-container w-5/6 py-20 mx-auto z-10 bg-white">
         <div className="first-content">
